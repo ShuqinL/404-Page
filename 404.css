@@ -1,5 +1,5 @@
 body{
-   /*max-width: 700px;*/
+   max-width: 700px;
    margin:auto;
 }
 
@@ -24,12 +24,15 @@ h2{
 }
 
 .lsq {
+   /* i created an outer div & a separate css class that changes color*/
     animation: background-color-changing;
     animation-duration: 5s;
     animation-iteration-count: 5;
 }
 
 a.button {
+   /* the animation won't work on this because 1) in your html you have an "a href" instead of a button*/
+   
     height:40px;
     width: 120px;
     margin-top: 50px;
@@ -38,7 +41,8 @@ a.button {
     font-size:18px;
     font-weight: bold;
     color: white;
-    background-color: rgb(197, 57, 111);
+   /* and 2) because you have a fixed background color here, which conflicts with your animation*/
+   background-color: rgb(197, 57, 111); 
     border: solid 1px rgb(62, 6, 128);
 }
 
