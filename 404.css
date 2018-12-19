@@ -6,7 +6,8 @@ h1{
    font-family: monospace;
    font-size: 30px;
    text-align: center;
-   color: rgb(197, 57, 111)
+   color: rgb(197, 57, 111);
+   margin-bottom:30px;
 }
 
 h2{
