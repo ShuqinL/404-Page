@@ -19,7 +19,7 @@ h2{
 }
 
 @keyframes background-color-changing {
-    0%  {background-color: rgb(197, 57, 111); };
+    0%  {background-color: rgb(197, 57, 111) };
     25% { background-color: rgb(197, 57, 162)};
     50% { background-color: rgb(164, 57, 197)};
     75% {background-color: rgb(118, 57, 197)};
