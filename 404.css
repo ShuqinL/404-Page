@@ -31,7 +31,7 @@ h2{
 }
 
 a.button {
-   /* the animation won't work on this because 1) in your html you have an "a href" instead of a button*/
+   /* the animation won't work on this because 1) in your html you have an "a href" instead of a "button"*/
    
     height:40px;
     width: 120px;
