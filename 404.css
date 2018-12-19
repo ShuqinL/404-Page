@@ -1,0 +1,40 @@
+img #image{
+   width:400px;
+};
+h1{
+   font-family: monospace;
+   font-size: 30px;
+   text-align: center;
+   color: rgb(197, 57, 111)
+};
+h2{
+    font-family: monospace;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(197, 57, 111)
+};
+
+@keyframes background-color-changing {
+    0%  {background-color: rgb(197, 57, 111); };
+    25% { background-color: rgb(197, 57, 162)};
+    50% { background-color: rgb(164, 57, 197)};
+    75% {background-color: rgb(118, 57, 197)};
+    100%{background-color: rgb(62, 6, 128) };
+}
+
+a.button {
+    appearance: button;
+    height:40px;
+    width: 10px;
+    text-align: center;
+    font-family: monospace; 
+    font-size:18px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(197, 57, 111);
+    border: solid 1px rgb(62, 6, 128);
+    animation-name: background-color-changing;
+    animation-duration: 5s;
+    animation-iteration-count: 5;
+
+}
