@@ -23,11 +23,13 @@ h2{
     margin-bottom:90px;
 }
 
-
-a.button {
+.lsq {
     animation: background-color-changing;
     animation-duration: 5s;
     animation-iteration-count: 5;
+}
+
+a.button {
     height:40px;
     width: 120px;
     margin-top: 50px;
