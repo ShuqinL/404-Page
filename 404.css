@@ -1,18 +1,18 @@
 img #image{
    width:400px;
-};
+}
 h1{
    font-family: monospace;
    font-size: 30px;
    text-align: center;
    color: rgb(197, 57, 111)
-};
+}
 h2{
     font-family: monospace;
     font-size: 25px;
     text-align: center;
     color: rgb(197, 57, 111)
-};
+}
 
 @keyframes background-color-changing {
     0%  {background-color: rgb(197, 57, 111); };
