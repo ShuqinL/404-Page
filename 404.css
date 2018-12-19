@@ -1,9 +1,6 @@
 body{
+   max-width: 700px;
    margin:auto;
-   
-    animation: background-color-changing;
-    animation-duration: 5s;
-    animation-iteration-count: 5;
 }
 
 img #image{
@@ -46,4 +43,8 @@ a.button {
     color: white;
     background-color: rgb(197, 57, 111);
     border: solid 1px rgb(62, 6, 128);
+    animation-name: background-color-changing;
+    animation-duration: 5s;
+    animation-iteration-count: 5;
+
 }
