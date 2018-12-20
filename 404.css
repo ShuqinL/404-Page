@@ -59,8 +59,12 @@ a.button {
     font-weight: bold;
     color: white;
    /* and 2) because you have a fixed background color here, which conflicts with your animation*/
-   background-color: rgb(197, 57, 111); 
+   /*background-color: rgb(197, 57, 111); */
     border: solid 1px rgb(62, 6, 128);
+   
+    animation: background-color-changing;
+    animation-duration: 5s;
+    animation-iteration-count: 5;
 }
 
 
