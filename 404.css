@@ -24,7 +24,7 @@ h2{
 }
 
 /* this css selector targets <div class="lsq"></div> , and also <a class="button"></a> */
-.lsq , a.button {
+a.button {
    /* i created an outer div & a separate css class that changes color*/
     animation: background-color-changing;
     animation-duration: 5s;
