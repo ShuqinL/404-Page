@@ -8,7 +8,7 @@ img #image{
 }
 
 h1{
-   font-family: monospace;
+   font-family: serif;
    font-size:40px;
    text-align: center;
    color: rgb(197, 57, 111);
@@ -16,7 +16,7 @@ h1{
 }
 
 h2{
-    font-family: monospace;
+    font-family: serif;
     font-size: 30px;
     text-align: center;
     color: rgb(197, 57, 111);
@@ -28,16 +28,16 @@ a.button {
    /* i created an outer div & a separate css class that changes color*/
     animation: background-color-changing;
     animation-duration: 5s;
-    animation-iteration-count: 5;
+    animation-iteration-count: 20;
 }
 
 a.button { 
-    height:80px;
-    width:200px;
+    height:10px;
+    width:300px;
     margin-top: 50px;
     text-align: center;
-    font-family: monospace; 
-    font-size:18px;
+    font-family: serif; 
+    font-size:25px;
     font-weight: bold;
     color: white;
    /* your css animation won't work here because you have a fixed background color here, which conflicts with your animation color*/
