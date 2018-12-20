@@ -23,7 +23,24 @@ h2{
     margin-bottom:90px;
 }
 
+/* this css selector targets <div class="lsq"></div> */
 .lsq {
+   /* i created an outer div & a separate css class that changes color*/
+    animation: background-color-changing;
+    animation-duration: 5s;
+    animation-iteration-count: 5;
+}
+
+/* this css selector targets <a><input></a>*/
+a.input {
+   /* i created an outer div & a separate css class that changes color*/
+    animation: background-color-changing;
+    animation-duration: 5s;
+    animation-iteration-count: 5;
+}
+
+/* this css selector targets <a><button></a>*/
+a.button {
    /* i created an outer div & a separate css class that changes color*/
     animation: background-color-changing;
     animation-duration: 5s;
