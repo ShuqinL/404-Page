@@ -32,7 +32,7 @@ h2{
 }
 
 /* this css selector targets <a><input></a>*/
-a.input {
+a .input {
    /* i created an outer div & a separate css class that changes color*/
     animation: background-color-changing;
     animation-duration: 5s;
@@ -40,7 +40,7 @@ a.input {
 }
 
 /* this css selector targets <a><button></a>*/
-a.button {
+a .button {
    /* i created an outer div & a separate css class that changes color*/
     animation: background-color-changing;
     animation-duration: 5s;
