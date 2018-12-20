@@ -23,17 +23,15 @@ h2{
     margin-bottom:90px;
 }
 
-/* this css selector targets <div class="lsq"></div> */
-.lsq {
+/* this css selector targets <div class="lsq"></div> , and also <a class="button"></a> */
+.lsq , a.button {
    /* i created an outer div & a separate css class that changes color*/
     animation: background-color-changing;
     animation-duration: 5s;
     animation-iteration-count: 5;
 }
 
-a.button {
-   /* the animation won't work on this because 1) in your html you have an "a href" instead of a "button"*/
-   
+a.button { 
     height:40px;
     width: 120px;
     margin-top: 50px;
@@ -42,13 +40,9 @@ a.button {
     font-size:18px;
     font-weight: bold;
     color: white;
-   /* and 2) because you have a fixed background color here, which conflicts with your animation*/
+   /* your css animation won't work here because you have a fixed background color here, which conflicts with your animation color*/
    /*background-color: rgb(197, 57, 111); */
     border: solid 1px rgb(62, 6, 128);
-   
-    animation: background-color-changing;
-    animation-duration: 5s;
-    animation-iteration-count: 5;
 }
 
 
