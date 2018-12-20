@@ -31,22 +31,6 @@ h2{
     animation-iteration-count: 5;
 }
 
-/* this css selector targets <a><input></a>*/
-a .input {
-   /* i created an outer div & a separate css class that changes color*/
-    animation: background-color-changing;
-    animation-duration: 5s;
-    animation-iteration-count: 5;
-}
-
-/* this css selector targets <a><button></a>*/
-a .button {
-   /* i created an outer div & a separate css class that changes color*/
-    animation: background-color-changing;
-    animation-duration: 5s;
-    animation-iteration-count: 5;
-}
-
 a.button {
    /* the animation won't work on this because 1) in your html you have an "a href" instead of a "button"*/
    
