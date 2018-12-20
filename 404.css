@@ -6,7 +6,8 @@ body{
 img #image{
    width:400px;
    height:200px;
-   margin-top:20px;
+   margin-top:0px;
+   margin-bottom:0px;
 }
 
 h1{
